@@ -1,0 +1,95 @@
+
+body {
+ 
+ 
+}
+.btn-div{
+    text-align: center; 
+}
+.btn-cat {
+    align-items: center;
+    appearance: none;
+    
+    background-color: #fcfcfd;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    margin: 8px;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+  }
+  
+  .button-30:focus {
+    box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  }
+  
+  .button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-30:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+.outer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #DDA0DD;
+    width: 90%;
+    height: auto; /* Set a height for demonstration purposes */
+    margin: 0 auto;
+    border: 2px solid #000; /* Border color and width */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-family: "JetBrains Mono", monospace; /* Add padding for better visual */
+}
+
+.container {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  margin-bottom: 10px;
+}
